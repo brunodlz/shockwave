@@ -9,4 +9,6 @@ class User < ApplicationRecord
                     format: { with: /\A[^@]+@([^@\.]+\.)+[^@\.]+\z/ },
                     uniqueness: true
 
+  has_secure_password
+
 end
