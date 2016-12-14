@@ -11,6 +11,9 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
+# to use activemodel has_secure_password
+gem 'bcrypt-ruby', '~> 3.0.0'
+
 group :development, :test do
   gem 'pry-meta'
   gem 'byebug', platform: :mri
