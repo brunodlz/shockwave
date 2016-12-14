@@ -15,6 +15,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'bcrypt-ruby', '~> 3.0.0'
 
 group :development, :test do
+  gem 'rspec'
+  gem 'shoulda-matchers', '~> 3.1'
   gem 'pry-meta'
   gem 'byebug', platform: :mri
 end
